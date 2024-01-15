@@ -1,0 +1,59 @@
+/*  Mulish font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+/* shared styles */
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+.common-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.common-pera{
+    color: rgba(19, 19, 24, 0.70);
+
+}
+main{
+    margin: 100px 135px;
+}
+/*popular tour styles */
+.popular-button{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 34px;
+    margin-top: 30px;
+}
+.popular{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.popular-img{
+    border-radius: 16px;
+    width: 100%;
+}
+ul li{
+    padding-bottom: 15px;
+}
+/* responsive */
+/* small or mobile device */
+@media screen and (max-width:600px){
+    main{
+        margin: 0px;
+    }
+    .popular{
+        flex-direction: column;
+    }
+    .popular-img{
+        width: fit-content;
+        border-radius: 16px;
+    }
+}
