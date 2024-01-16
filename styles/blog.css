@@ -15,8 +15,88 @@
     color: rgba(19, 19, 24, 0.70);
 
 }
+.common-title_24{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
 main{
     margin: 100px 135px;
+}
+/* header styles */
+header{
+    max-width:1200px;
+    margin:0 auto;
+}
+/* navbar styles */
+header h1{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.red{
+    color: #FF5400;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+nav div{
+    display:flex;
+    gap:10px;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+}
+nav ul li{
+    margin-left:40px;
+}
+nav a{
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+/*banner section styles */
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.banner-content{
+    text-align: center;
+    color: #FFF;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 106px;
+    margin-bottom: 0px;
+}
+.banner-pera{
+    width: 676px;
+    padding: 24px 247px;
+    }
+.banner-buttons{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner-buttons button{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    padding: 15px 60px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
 }
 /*popular tour styles */
 .popular-button{
@@ -43,13 +123,58 @@ main{
 ul li{
     padding-bottom: 15px;
 }
+/* choose destination styles*/
+#destination-id{
+    text-align: center;
+}
+.destinations-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+.destinations .common-pera{
+    margin-bottom: 50px;
+}
+/*why choose use part styles*/
+.hotel,.part2{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 25px;
+
+}
+.world{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 25px;
+}
+.part1{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.part2{
+    margin: 24px 280px 100px 280px;
+}
+/*Newsletter section styles*/
+.newsletter{
+    display: flex;
+    justify-content: space-evenly;
+}
+.letter-section{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 40px;
+}
 /* responsive */
 /* small or mobile device */
 @media screen and (max-width:600px){
-    main{
-        margin: 0px;
+    body{
+        margin: 5px;
     }
-    .popular{
+    .popular,.destinations-img{
         flex-direction: column;
     }
     .popular-img{
