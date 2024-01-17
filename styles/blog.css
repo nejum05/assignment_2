@@ -217,6 +217,37 @@ ul li{
 .part2{
     margin: 24px 280px 100px 280px;
 }
+/* bonous section styles */
+.lost{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-bottom: 100px;
+}
+.simple ul{
+    color: #131318;
+    font-weight: 700;
+    width: 532px;
+}
+.simple button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.simple-img h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    right: 280px;
+}
 /*Newsletter section styles*/
 .newsletter{
     display: grid;
