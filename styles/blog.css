@@ -168,6 +168,30 @@ ul li{
 .destinations .common-pera{
     margin-bottom: 50px;
 }
+.destinations-img h2{
+    position: absolute;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+#Maldives{
+    left: 400px;
+}
+#Indonesia{
+    right: 400px;
+}
+#Srilanka{
+    left: 300px;
+}
+#Kashmir{
+    right: 300px;
+}
+#Bangladesh{
+    left: 300px;
+}
+#Bandarban{
+    right: 450px;
+}
 /*why choose use part styles*/
 .hotel,.part2{
     border-radius: 16px;
@@ -195,13 +219,117 @@ ul li{
 }
 /*Newsletter section styles*/
 .newsletter{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
 }
 .letter-section{
     border-radius: 16px;
     border: 1px solid #FF5400;
-    padding-left: 40px;
+    padding-left: 30px;
+    margin: 5px;
+}
+.newsletter p{
+    padding-top: -10px;
+    padding-bottom: 5px;
+}
+.newsletter hr{
+    background: rgba(19, 19, 24, 0.10);
+    width: 385px;
+    height: 1px;
+    margin-left: -5px;
+    margin-top: 5px;
+}
+.input{
+    margin-top: -25px;
+}
+.newsletter input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 385px;
+    height: 50px;
+    border: 0;
+    margin-bottom: 20px;
+}
+.newsletter button{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    width: 385px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.discount{
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    margin-left: 340px;
+    margin-top: -200px;
+}
+.discount p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+.discount h2{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -20px;
+}
+/* Extra section Styles */
+.extra h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.plans img{
+    border-radius: 20px;
+}
+.extra button{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    width: 385px;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.extra h2{
+    position: absolute;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+#family{
+    left: 220px;
+}
+#girls{
+    left: 530px;
+}
+#motor{
+    right: 480px;
+}
+#friend{
+    right: 220px;
 }
 /*footer styles */
 footer{
@@ -221,6 +349,7 @@ footer>div{
 footer >div img{
     margin-right: 10px;
 }
+
 
 footer>div> h1{
     margin-left:0px;
